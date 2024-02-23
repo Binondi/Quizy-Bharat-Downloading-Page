@@ -1,0 +1,179 @@
+body {
+    background-color: #141414;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+       
+
+#appLogo {
+    padding: auto;
+}
+#linear2 {
+    padding: 10px;
+    padding-top: 80px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+        
+#textview2 {
+            
+    font-size: 60px;
+    font-weight: bold;
+    padding: 8px;
+    background: linear-gradient(90deg, #5ae05f, #53ffac);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+        
+#textview3 {
+    font-size: 18px;
+    padding: 8px;
+    line-height: 1.7;
+}
+  
+#categories {
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+  
+#cardview1 {
+    padding: 2px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+#linear4 {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+  
+#textview4 {
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+        
+#toobar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background: rgba(14, 14, 14, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#linear3 {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  backdrop-filter: blur(20px);
+}
+  
+#linearBtn {
+
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+#textview1 {
+    font-size: 25px;
+    font-weight: bold;
+        
+}
+
+#button1 {
+    width: 80%;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 16px;
+    color: #000000;
+    background: linear-gradient(90deg, #47e44c, #5ffcb0);
+    border: none;
+    transition: background 0.3s ease;
+    border-radius: 10px;
+}
+
+#button2 {
+    width: auto;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+  padding-right: 20px;
+    font-size: 16px;
+    color: #000000;
+    background: linear-gradient(90deg, #47e44c, #5ffcb0);
+    border: none;
+
+    transition: background 0.3s ease;
+    border-radius: 20px;
+}
+
+#button1:active {
+    background: linear-gradient(90deg, #57ffae, #3aca3f);
+}
+
+#button2:active {
+    background: linear-gradient(90deg, #57ffae, #3aca3f);
+}
+.box {
+    width: calc((100vw - 30px) / 3); 
+    height: calc((100vh - 400px) / 3);
+    border-radius: 10px;
+    background-color: #222222;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+.boxSvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
